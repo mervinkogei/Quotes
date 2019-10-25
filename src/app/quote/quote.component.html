@@ -5,7 +5,7 @@
     </div>
 
     <div class="col-md-6">
-      <h4>Quote Author</h4>
+      <h4>Description</h4>
     </div>
   </div>
 
@@ -13,5 +13,8 @@
     <div *ngFor='let quote of quote'>
       <li>{{quote.name}}</li>
     </div>
+    <button class="btn btn-button bg-success" value="ADD">ADD</button>
+    <button class="btn btn-button bg-primary" value="EDIT">EDIT</button>
+    <button class="btn btn-button bg-danger" value="DELETE">DELETE</button>
   </div>
 </div>

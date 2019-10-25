@@ -9,18 +9,13 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quote: Quote[] = [
-    new Quote(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son'),
-    new Quote(2,'Buy Cookies','I have to buy cookies for the parrot'),
-    new Quote(3,'Get new Phone Case','Diana has her birthday coming up soon'),
-    new Quote(4,'Get Dog Food','Pupper likes expensive snacks'),
-    new Quote(5,'Solve math homework','Damn Math'),
-    new Quote(6,'Plot my world domination plan','Cause I am an evil overlord'),
+    new Quote(1, 'Motivation', 'Find an online version and watch merlin find his son'),
+    new Quote(2,'Attitude','I have to buy cookies for the parrot'),
+    new Quote(3,'Passion','Diana has her birthday coming up soon'),
+    new Quote(4,'Happiness','Pupper likes expensive snacks'),
+    new Quote(5,'Change','Damn Math'),
+    new Quote(6,'Inspiration','Cause I am an evil overlord'),
   ];
-
-  // toggleDetails(index){
-  //   this.quote[index].showDescription = !this.quote[index].showDescription;
-  // }
-
 
   constructor() { }
 
