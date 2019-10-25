@@ -2,19 +2,37 @@
   <div class="row">
     <div class="col-md-6">
       <h4>Quotes</h4>
+      <div class="quote">
+        <div *ngFor='let quote of quote'>
+          <li>{{quote.name}}</li>
+          <button type="button" class="btn btn-success">Read More</button>
+        </div>
+        <br>
+        <button class="btn btn-button bg-success" value="ADD">ADD</button>
+        <button class="btn btn-button bg-primary" value="EDIT">EDIT</button>
+        <button class="btn btn-button bg-danger" value="DELETE">DELETE</button>
+      </div>
     </div>
 
     <div class="col-md-6">
       <h4>Description</h4>
+      <form>
+        <div class="form-group">
+          <label for="title">Quote Title</label>
+          <input type="text" class="form-control" id="title" placeholder="Quote Title">
+        </div>
+        <div class="form-group">
+          <label for="Description">Description</label>
+          <input type="text" class="form-control" id="desc" placeholder="Description">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">Image File</label> <br>
+          <input type="file" id="image"> <br>
+          <p class="help-block">Upload the Quote cover here.</p>
+        </div>
+        
+        <button type="add" class="btn btn-success">New Quote</button>
+      </form>
     </div>
-  </div>
-
-  <div class="quote">
-    <div *ngFor='let quote of quote'>
-      <li>{{quote.name}}</li>
-    </div>
-    <button class="btn btn-button bg-success" value="ADD">ADD</button>
-    <button class="btn btn-button bg-primary" value="EDIT">EDIT</button>
-    <button class="btn btn-button bg-danger" value="DELETE">DELETE</button>
   </div>
 </div>
