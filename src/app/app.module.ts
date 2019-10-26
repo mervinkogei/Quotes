@@ -5,13 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
+import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuoteComponent
+    QuoteComponent,
+    QuoteVoteComponent
   ],
   imports: [
     BrowserModule,
