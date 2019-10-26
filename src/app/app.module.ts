@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
+import { DateCountPipe } from './date-count.pipe';
 
 
 
@@ -13,7 +14,8 @@ import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
   declarations: [
     AppComponent,
     QuoteComponent,
-    QuoteVoteComponent
+    QuoteVoteComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
