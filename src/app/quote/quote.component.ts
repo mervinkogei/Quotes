@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Quote } from '../quote';
 
 @Component({
@@ -17,6 +17,12 @@ export class QuoteComponent implements OnInit {
     new Quote(6,'Inspiration','Cause I am an evil overlord'),
   ];
 
+  newQuote = new Quote('', '', '', new Date(), 0, 0);
+  @Output() addQoute = new EventEmitter<Quote>();
+
+  ongezaQuote() {
+    this.addQoute.emit(this.newQuote);
+  }
   constructor() { }
 
   ngOnInit() {

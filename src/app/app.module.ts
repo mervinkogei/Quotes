@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 import { DateCountPipe } from './date-count.pipe';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 
 
@@ -15,7 +16,8 @@ import { DateCountPipe } from './date-count.pipe';
     AppComponent,
     QuoteComponent,
     QuoteVoteComponent,
-    DateCountPipe
+    DateCountPipe,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
