@@ -16,58 +16,7 @@
 
     <div class="col-md-6">
       <h4 class="desc">Description</h4>
-      <form (ngSubmit)='ongezaQuote()'>
-        <div class="form-group">
-          <label for="title">Quote Title</label>
-          <input type="text" class="form-control" id="title" placeholder="Quote Title"
-          [(ngModel)]="newQuote.title" name="title" #title='ngModel' required>
-      <div [hidden]="title.valid || title.pristine" class="alert alert-danger ">
-        <p>Name is required</p>
-        </div>
-
-        <div class="form-group">
-          <label for="Description">Description</label>
-          <input type="text" class="form-control" id="desc" placeholder="Description"
-          [(ngModel)]="newQuote.desc" name="desc" #desc='ngModel' required>
-      <div [hidden]="desc.valid || desc.pristine" class="alert alert-danger ">
-        <p>Description is required</p>
-        </div>
-
-        <div class="form-group">
-            <label for="Description">Date of Publication</label>
-            <input type="date" class="form-control" id="date" placeholder="Date of Publication"
-            [(ngModel)]="newQuote.date" name="date" #date='ngModel' required>
-      <div [hidden]="date.valid || date.pristine" class="alert alert-danger ">
-        <p>Date is required</p>
-          </div>
-
-          <div class="row">
-          <div class="col-md-6">
-          <div class="form-group ">
-            <label for="Description">Author</label>
-            <input type="text" class="form-control" id="author" placeholder="Author"
-            [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
-      <div [hidden]="author.valid || author.pristine" class="alert alert-danger ">
-        <p>Author is required</p>
-          </div>
-
-        </div>
-        <div class="col-md-6">
-            <div class="form-group ">
-              <label for="Description">Category</label>
-              <select class="form-control">
-                <option>Motivation</option>
-                <option>Inspiration</option>
-                <option>Attitude</option>
-                <option>Change</option>
-                <option>Passion</option>
-              </select>
-            </div>
-          </div>
-        </div>
-        
-        <button type="add" class="btn btn-success">New Quote</button>
-      </form>
+     <app-quote-form></app-quote-form>
     </div>
   </div>
 </div>
