@@ -2,6 +2,7 @@
 
 /* @import "~bootstrap/dist/css/bootstrap.css" */
 @import "~bootstrap/dist/css/bootstrap.css";
+
 body{
     background-image: url("../src/assets/images/back_quote.jpg");
     background-repeat: no-repeat;
@@ -9,4 +10,12 @@ body{
 };
 .navbar-brand{
     color: white;
+    font-family: monospace;
+
+}
+button{
+    padding:10px;
+}
+title{
+    font-family: monospace;
 }
