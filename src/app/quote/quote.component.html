@@ -23,8 +23,8 @@
                       </div>
                   
                   <button (click)='toggleDetails(i)' class="btn btn-success">Description</button>
-                  <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete)='quoteDelete($event,i)'>
-                  </app-quote-detail>
+                  <app-quote-vote *ngIf='quote.showDescription' [quote]='quote' (isComplete)='quoteDelete($event,i)'>
+                  </app-quote-vote>
                 </div>
               </div>
             </div>
