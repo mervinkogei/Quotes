@@ -4,7 +4,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 body{
-    background-image: url("../src/assets/images/back_quote.jpg");
+    /* background-image: url("../src/assets/images/back_quote.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 };
