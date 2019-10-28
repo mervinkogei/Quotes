@@ -15,6 +15,13 @@ export class QuoteComponent implements OnInit {
     new Quote(4, "Kogei", " “It's not a faith in technology. It's faith in people.”.", "John Lasseter", new Date(2019, 10, 27), 0, 0),
   ]
 
+
+
+
+
+
+
+  
   addNewQuote(quote) {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;

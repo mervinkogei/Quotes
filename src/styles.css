@@ -8,10 +8,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-};
+}
 .navbar-brand{
     color: white;
     font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
 
 }
 button{
