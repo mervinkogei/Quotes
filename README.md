@@ -17,6 +17,8 @@ To get a local copy of the site:
 * Angular
 * HTML 5
 * Bootstrap
+* Css
+* Javascript
 
 ## Screenshot
 The Landing page `https://documentviewer.herokuapp.com/?state=%7B%22ids%22:%5B%221ldFruTHZpNnFuLzxqJzt0Fvv2n0MJrCz%22%5D,%22action%22:%22open%22,%22userId%22:%22118054345970388443824%22%7D`
