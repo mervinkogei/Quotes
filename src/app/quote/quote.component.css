@@ -16,4 +16,7 @@
 }
 .text-center{
     color: orange;
+    padding-top: 7%;
+    font-family: monospace;
+    text-align: left;
 }
