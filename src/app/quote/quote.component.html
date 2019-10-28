@@ -5,6 +5,7 @@
           <div class="row">
             <div class="col-md-7">
               <h2 class="text-center">Quotes</h2>
+              
               <div *ngFor='let quote of quotes; let i=index'>
                 <div id="quotes" class="mt-5">
                   <p appHighlight *ngIf="highestUpvote()===quote.numberOfLikes && quote.numberOfLikes>0">

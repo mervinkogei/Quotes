@@ -9,10 +9,10 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   public quotes: Quote[] = [
-    new Quote(1, "Kogei", "Humanity is acquiring all the right technology for all the wrong reasons.", "R. Buckminster Fuller", new Date(2019, 10, 27), 0, 0),
+    new Quote(1, "Kogei", "As a young boy, I was taught in high school that hacking was cool.", "Kevin mitnick", new Date(2019, 10, 27), 0, 0),
     new Quote(2, "Kogei", "Technology is a word that describes something that doesn’t work yet.", "Douglas Adams", new Date(2019, 10, 27), 0, 0),
-    new Quote(3, "Kogei", "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.", "Elbert Hubbard", new Date(2019, 10, 27), 0, 0),
-    new Quote(4, "Kogei", "The art challenges the technology, and the technology inspires the art.", "John Lasseter", new Date(2019, 10, 27), 0, 0),
+    new Quote(3, "Kogei", "The hacking trend has definitely turned criminal because of e-commerce.", "Elbert Hubbard", new Date(2019, 10, 27), 0, 0),
+    new Quote(4, "Kogei", " “It's not a faith in technology. It's faith in people.”.", "John Lasseter", new Date(2019, 10, 27), 0, 0),
   ]
 
   addNewQuote(quote) {
