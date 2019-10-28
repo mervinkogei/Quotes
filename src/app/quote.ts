@@ -1,7 +1,7 @@
 export class Quote {
 
 showDescription: boolean;
-  numberOfDislikes: any;
+  // numberOfDislikes: number;
 constructor(
 public id: number,
 public name: string,
@@ -10,7 +10,7 @@ public theQuote: string,
 public author: string,
 public postDate:string,
 public numberOfLikes:number, 
-// public numberOfDislikes:number
+public numberOfDislikes:number
 )
 {
   this.showDescription=false;
