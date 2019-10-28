@@ -1,6 +1,25 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
+>This is a web application that allow users to create quotes and rate the quotes by Voting..
+>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
+
+## Project SetUp
+To get a local copy of the site:
+
+`git clone https://github.com/mervinkogei/Quotes`
+
+`Extract` the cloned file.
+
+`cd` to Quotes.
+
+## Technologies used
+* Typescript
+* Angular
+* HTML 5
+* Bootstrap
+
+## Screenshot
+The Landing page `https://documentviewer.herokuapp.com/?state=%7B%22ids%22:%5B%221ldFruTHZpNnFuLzxqJzt0Fvv2n0MJrCz%22%5D,%22action%22:%22open%22,%22userId%22:%22118054345970388443824%22%7D`
 
 ## Development server
 
